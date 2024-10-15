@@ -6,7 +6,7 @@ __all__ = ['my_sum', 'factorial']
 def my_sum(iterable):
     tot = 0
     for i in iterable:
-        tot += i*2
+        tot += i
     return tot
 
 @cache
